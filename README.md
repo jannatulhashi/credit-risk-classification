@@ -12,7 +12,9 @@ The instructions for this Challenge are divided into the following subsections:
 
 #### Split the Data into Training and Testing Sets
 Open the starter code notebook and use it to complete the following steps:
+
 1: Read the **lending_data.csv** data from the Resources folder into a Pandas DataFrame.
+
 2: Create the labels set (y) from the **“loan_status”** column, and then create the features (X) DataFrame from the remaining columns.
 
 **NOTE:** A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
@@ -21,8 +23,11 @@ Open the starter code notebook and use it to complete the following steps:
 
 #### Create a Logistic Regression Model with the Original Data
 I'll use logistic regression to complete the following steps:
+
 1: Fit a logistic regression model by using the training data (X_train and y_train).
+
 2: Save the predictions for the testing data labels by using the testing feature data (X_test) and the fitted model.
+
 3: Evaluate the model’s performance by doing the following:
 
   - Generate a confusion matrix.
@@ -33,8 +38,11 @@ I'll use logistic regression to complete the following steps:
 #### Write a Credit Risk Analysis Report
 I'll write a brief report that includes a summary and analysis of the performance of the machine learning models that I used in this challenge.
 I'll structure my report to ensure that it contains the following:
+
 1: **An overview of the analysis:** Explain the purpose of this analysis.
+
 2: **The results:** I'll use a bulleted list, and describe the accuracy score, the precision score, and the recall score of the machine learning model.
+
 3: **A summary:** Next, I'll summarize the results from the machine learning models and provide my justification for recommending a particular model for the company's use. If I don't recommend any model, I'll also provide my reasons for that decision.
 
 **Overview of the Analysis:**
