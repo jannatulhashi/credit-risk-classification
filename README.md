@@ -48,16 +48,20 @@ I'll structure my report to ensure that it contains the following:
 **Overview of the Analysis:**
 Credit risk management is pivotal in financial industries, especially in the banking and lending sectors. This analysis was geared toward predicting the creditworthiness of loan borrowers using machine learning models.
 
-- Purpose of Analysis:
+- **Purpose of Analysis:**
 The principal aim was to leverage machine learning to anticipate the probability of a loan being high-risk (1) or healthy (0). This predictive capability aids financial institutions in making informed lending decisions, thereby minimizing potential losses.
 
-- Financial Information: The dataset comprised various financial metrics and details about borrowers. Our primary objective was to predict the risk associated with each loan – whether it is likely to be healthy or high-risk.
+- **Financial Information:**
+The dataset comprised various financial metrics and details about borrowers. Our primary objective was to predict the risk associated with each loan – whether it is likely to be healthy or high-risk.
 
-- Variables: The target variable was binary: healthy loan (0) or high-risk loan (1). Initial data inspection indicated an imbalance in the distribution, with a notably higher number of healthy loans compared to high-risk ones.
+- **Variables:**
+The target variable was binary: healthy loan (0) or high-risk loan (1). Initial data inspection indicated an imbalance in the distribution, with a notably higher number of healthy loans compared to high-risk ones.
 
-- Machine Learning Process: The steps entailed data preprocessing, splitting the data into training and test sets, and then applying machine learning models. Due to the class imbalance, resampling techniques were also employed.
+- **Machine Learning Process:**
+The steps entailed data preprocessing, splitting the data into training and test sets, and then applying machine learning models. Due to the class imbalance, resampling techniques were also employed.
 
-- Methods Used: LogisticRegression was the primary machine learning algorithm utilized. Given the class imbalance, the RandomOverSampler method from the imbalanced-learn library was also employed to balance the data.
+- **Methods Used:**
+LogisticRegression was the primary machine learning algorithm utilized. Given the class imbalance, the RandomOverSampler method from the imbalanced-learn library was also employed to balance the data.
 
 **Results:**
 
