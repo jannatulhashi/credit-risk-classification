@@ -60,6 +60,7 @@ The principal aim was to leverage machine learning to anticipate the probability
 - Methods Used: LogisticRegression was the primary machine learning algorithm utilized. Given the class imbalance, the RandomOverSampler method from the imbalanced-learn library was also employed to balance the data.
 
 **Results:**
+
 **Machine Learning Model 1 (Initial Logistic Regression Model):**
 - Balanced Accuracy Score: Approximately 99%
 - Precision: Healthy Loans (0): 1.00; High-risk Loans (1): 0.87
@@ -76,7 +77,8 @@ The principal aim was to leverage machine learning to anticipate the probability
 
 ![](Images/resampled_report.PNG)
   
-**Summary**
+**Summary:**
+
 Upon evaluation of the models:
 
 - The Logistic Regression model, when trained with over-sampled data, demonstrated slightly superior performance, particularly in detecting high-risk loans. The recall for high-risk loans, a vital metric in this context, reached 100%.
